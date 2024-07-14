@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Tac+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+h2,
+h3 {
+  color: #219ebc;
+}
+
+nav a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.sidebar header {
+  text-align: center;
+}
+.gambar-artikel {
+  width: 50%;
+  /* max-height: 500px; */
+  padding: 10px 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+table {
+  width: 100%;
+}
+
+.harga tr td {
+  text-align: center;
+}
+
+.card-testimoni {
+  width: 45%;
+  box-shadow: 0 4px 8px #3a3a3a25;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.galeri {
+  display: inline;
+}
+
+.galeri img {
+  width: 300px;
+  vertical-align: top;
+}
+
+.card-testimoni img {
+  width: 20%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.card-testimoni p span {
+  color: #219ebc;
+}
+
+.testimoni {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.gambar-dokum {
+  width: 200px;
+}
+.sidenav {
+  width: 30%;
+  height: 550px;
+}
+main {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+.card {
+  box-shadow: 0 4px 8px #3a3a3a25;
+  border-radius: 7px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  text-align: center;
+  background-color: #219ebc;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+nav {
+  background-color: #0e718a;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  padding-left: 20px;
+}
+header {
+  display: inline;
+}
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #219ebc;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    display: block;
+  }
+  .sidenav {
+    width: 100%;
+  }
+
+  .sidenav header img {
+    width: 80%;
+    margin: 10px;
+  }
+
+  .testimoni {
+    display: block;
+    padding-right: 30px;
+  }
+
+  .card-testimoni {
+    width: 100%;
+    box-shadow: 0 4px 8px #3a3a3a25;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+  }
+  .card-testimoni img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+}
